@@ -12,6 +12,9 @@ Microservices in this project:
 - product-service
 - offer-service
 
+Swagger Documentation:
+https://app.swaggerhub.com/apis/watchserviceapi/watch-business/1.0.0#/ForecastTemperature
+
 # What is microservice?
 Microservice is a modern as well as a popular architecture of designing software application over the last few years. 
 There are lots of content on the internet to describe what microservice really is and those are very informative. 
