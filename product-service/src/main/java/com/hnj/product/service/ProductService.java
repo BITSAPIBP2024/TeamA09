@@ -12,5 +12,8 @@ public interface ProductService {
     Optional<Product> getProductById(Integer productId);
     void addProductOffer(Integer productId, Double discountOffer);
     Product addPrice(Integer id, Double price);
+<<<<<<< HEAD
     void deleteProduct(String productCode);
+=======
+>>>>>>> 559dd52 (product service)
 }

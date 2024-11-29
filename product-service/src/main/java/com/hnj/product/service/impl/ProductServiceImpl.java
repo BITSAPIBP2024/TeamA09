@@ -78,6 +78,7 @@ public class ProductServiceImpl implements ProductService {
 			return null;
 		}
 	}
+<<<<<<< HEAD
 
 	@Override
 	public void deleteProduct(String productCode) {
@@ -88,4 +89,6 @@ public class ProductServiceImpl implements ProductService {
 			throw new IllegalArgumentException("Product with code " + productCode + " does not exist.");
 		}
 	}	
+=======
+>>>>>>> 559dd52 (product service)
 }
