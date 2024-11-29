@@ -1,0 +1,12 @@
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\controller\ProductController.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\model\request\ProductRequest.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\ProductServiceApplication.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\event\EventHandler.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\model\Product.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\repository\ProductRepository.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\configuration\RestClientConfiguration.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\event\MultiplicationSolvedEvent.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\service\impl\ProductServiceImpl.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\service\ProductService.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\event\ProductOfferEvent.java
+C:\Users\I528625\Desktop\API assignment\complete-microservice-application\product-service\src\main\java\com\hnj\product\configuration\RabbitMQConfiguration.java
