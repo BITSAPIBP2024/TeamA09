@@ -19,10 +19,13 @@ Microservices in this project:
 Business Use Case Documentation: https://docs.google.com/document/d/1zE-AAtCcXp3k_mMkBKh0Fd4YzmUGAbjdt49Tb9AAs3U/edit?usp=sharing
 
 Swagger Documentation:
+
 Product Microservice:
+
 https://app.swaggerhub.com/apis/watchserviceapi/watch-business/1.0.0#/ForecastTemperature
 
 Offer-Microservice API Documentation:
+
 https://app.swaggerhub.com/apis/2023SL93025/offerservice/1.0.0#/Offer/get_offer
 
 # What is microservice?
