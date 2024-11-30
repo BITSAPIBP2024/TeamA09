@@ -1,17 +1,25 @@
-# Guideline how to read this document
-Read this documentation with full concentration and understand clearly how the application working. I tried to describe 
-as simple as possible. No need to run the application or understand the code initially. **Read the documentation and understand 
-the workflow diagram first**. I have used Java, Spring Boot and Angular but you no need to know any specific language or technology to understand microservice 
-concept. Just read the documentation first.   
+# Product Management tool
 
-Once you have completed the documentation then you can run every application in your local system by configuring system 
-prerequisites and don't forget to notice terminal log when you run all application, it helps for better understanding. 
-Here is total 5 separate application (1 frontend + 4 backend).
+Team Member:
+
+Bishal Pudel : 2023SL93025
+Harsh Tomar  : 2023SL93050
+
+Microservices in this project:
 - microservice-ui (frontend)
 - service-registry
 - api-gateway
 - product-service
 - offer-service
+
+Business Use Case Documentation: https://docs.google.com/document/d/1zE-AAtCcXp3k_mMkBKh0Fd4YzmUGAbjdt49Tb9AAs3U/edit?usp=sharing
+
+Swagger Documentation:
+Product Microservice:
+https://app.swaggerhub.com/apis/watchserviceapi/watch-business/1.0.0#/ForecastTemperature
+
+Offer-Microservice:
+https://app.swaggerhub.com/apis/2023SL93025/offerservice/1.0.0#/Offer/get_offer
 
 # What is microservice?
 Microservice is a modern as well as a popular architecture of designing software application over the last few years. 
@@ -28,7 +36,7 @@ In this microservice application here are two service **product-service** and **
 deployable and scalable. **They are using two different database but this is not an issue about microservice architecture. 
 They can use the same database.**
 
-To expose these two service as microservice architecture I used two other service those are **service-registry** for 
+To expose these two service as microservice architecture we used two other service those are **service-registry** for 
 service discovery and **api-gateway** for dynamic service routing as well as load balancing.
 
 # Have a look the workflow
@@ -40,7 +48,7 @@ service discovery and **api-gateway** for dynamic service routing as well as loa
 ### 1. Clone this project
 Open terminal and run
 ````
-git clone https://github.com/hnjaman/complete-microservice-application.git
+https://github.com/BITSAPIBP2024/TEAMA13.git
 ````
 In your current directory ``complete-microservice-application`` directory will be created with five different project inside.
 
