@@ -12,6 +12,8 @@ Microservices in this project:
 - product-service
 - offer-service
 
+Business Use Case Documentation: https://docs.google.com/document/d/1zE-AAtCcXp3k_mMkBKh0Fd4YzmUGAbjdt49Tb9AAs3U/edit?usp=sharing
+
 Swagger Documentation:
 Product Microservice:
 https://app.swaggerhub.com/apis/watchserviceapi/watch-business/1.0.0#/ForecastTemperature
