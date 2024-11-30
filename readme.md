@@ -49,6 +49,9 @@ service discovery and **api-gateway** for dynamic service routing as well as loa
 # Have a look the workflow
 ![workflow](readme-images/flow-diagram.png)
 
+ Flow Diagram
+![image](https://github.com/user-attachments/assets/0135e9de-c63e-4da0-9c04-1ed44d73a020)
+
 # Run the services 
 
 ## System configuration prerequisites
