@@ -1,4 +1,6 @@
 # Product Management tool
+Project Overview
+The project involves building a microservices-based architecture consisting of offer-service, product-service, service-discovery, and an API gateway. These services collectively aim to streamline the management of products and offers, ensuring scalability, maintainability, and enhanced user experiences.
 
 Team Member:
 
