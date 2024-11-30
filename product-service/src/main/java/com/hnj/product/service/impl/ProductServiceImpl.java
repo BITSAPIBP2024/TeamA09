@@ -78,17 +78,16 @@ public class ProductServiceImpl implements ProductService {
 			return null;
 		}
 	}
-<<<<<<< HEAD
 
 	@Override
-	public void deleteProduct(String productCode) {
-		Product product = productRepository.findByProductCode(productCode);
-		if (product != null) {
-			productRepository.delete(product);
-		} else {
-			throw new IllegalArgumentException("Product with code " + productCode + " does not exist.");
-		}
-	}	
-=======
->>>>>>> 559dd52 (product service)
+public void deleteProduct(Integer id) {
+    Optional<Product> optionalProduct = productRepository.findById(id);
+    if (optionalProduct.isPresent()) {
+        productRepository.delete(optionalProduct.get());
+    } else {
+        throw new IllegalArgumentException("Product with id " + id + " not found");
+    }
+}
+
+
 }

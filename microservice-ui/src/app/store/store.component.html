@@ -31,13 +31,13 @@
 
                 <div *ngIf="product.price > 0; else addPrice">
                     <h4 class="badge badge-dark float-left">
-                        Price : ${{ product.price }} 
+                        Price : ₹{{ product.price }} 
                     </h4>
                 </div>
 
                 <div *ngIf="product.currentPrice > 0;">
                     <h4 style="margin-left: 20px;" class="badge badge-primary float-left">
-                        Payable : ${{ product.currentPrice }}
+                        Payable : ₹{{ product.currentPrice }}
                     </h4>
                 </div>
 
@@ -46,6 +46,14 @@
                         Discount : {{ product.discountOffer }}%
                     </h4>
                 </div>
+
+                <!-- Always placed below the price and discount -->
+                <div class="delete-button-container">
+                    <button class="btn btn-danger" (click)="deleteProduct(product.id)">
+                        Delete
+                    </button>
+                </div>
+                
 
                 <ng-template #addPrice>
                     <h4 class="badge badge-warning float-left">Price Not Added</h4>

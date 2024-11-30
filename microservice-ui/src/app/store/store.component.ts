@@ -7,6 +7,7 @@ import { MAT_DIALOG_DATA, MatDialogRef, MatDialog, MatSnackBar } from '@angular/
 import { NgForm } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { Offer } from '../model/offer.model';
+import { ChangeDetectorRef } from '@angular/core';
 
 import { throwError } from 'rxjs';
 import { RestService } from '../rest.service';
@@ -29,7 +30,8 @@ export class StoreComponent implements OnInit {
 
     constructor(private repository: ProductRepository,
                 private http: HttpClient,
-                private dialog: MatDialog) { }
+                private dialog: MatDialog,
+                private cdr: ChangeDetectorRef) { }
 
     ngOnInit(): void {
         this.getProducts();
@@ -100,6 +102,36 @@ export class StoreComponent implements OnInit {
             console.log(this.products);
         })
     }
+
+    deleteProduct(id: number): void {
+        const confirmDelete = window.confirm('Are you sure you want to delete this product?');
+    
+        if (confirmDelete) {
+            console.log('Delete Product id ------', id);
+            console.log(this.productsUrl + "/" + id);
+    
+            this.http.delete(`${this.productsUrl}/${id}`, { responseType: 'text' }).subscribe({
+                next: () => {
+                    // Successfully deleted, remove the product from the local products array
+                    this.products = this.products.filter(product => product.id !== id);
+                    console.log('Product deleted successfully');
+                },
+                error: (err) => {
+                    if (err.status === 404) {
+                        alert(`Error: ${err.error}`); // Display the message from the backend
+                    } else {
+                        console.error('Error deleting product:', err);
+                        alert('An error occurred while deleting the product.');
+                    }
+                }
+            });
+        } else {
+            console.log('Product deletion canceled.');
+        }
+    }
+    
+    
+    
 }
 
 @Component({
