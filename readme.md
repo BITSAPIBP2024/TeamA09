@@ -46,7 +46,7 @@ service discovery and **api-gateway** for dynamic service routing as well as loa
 ### 1. Clone this project
 Open terminal and run
 ````
-git clone https://github.com/hnjaman/complete-microservice-application.git
+https://github.com/BITSAPIBP2024/TEAMA13.git
 ````
 In your current directory ``complete-microservice-application`` directory will be created with five different project inside.
 
