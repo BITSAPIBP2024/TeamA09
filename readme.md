@@ -18,7 +18,7 @@ Swagger Documentation:
 Product Microservice:
 https://app.swaggerhub.com/apis/watchserviceapi/watch-business/1.0.0#/ForecastTemperature
 
-Offer-Microservice:
+Offer-Microservice API Documentation:
 https://app.swaggerhub.com/apis/2023SL93025/offerservice/1.0.0#/Offer/get_offer
 
 # What is microservice?
